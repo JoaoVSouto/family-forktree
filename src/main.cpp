@@ -37,7 +37,7 @@ void print_death_announcement(std::string person, int age,
   std::cout << WARN_COLOR_ACCENT
             << "Morre o " << person << " com " << age << " anos"
             << RESET_ACCENT << std::endl;
-  std::cout << SUB_WARN_COLOR_ACCENT << "✝️  Nascimento: " << born_date
+  std::cout << SUB_WARN_COLOR_ACCENT << "✝️ Nascimento: " << born_date
             << RESET_ACCENT << std::endl;
   std::cout << DEATH_COLOR_ACCENT << "💀 Morte:      " << death_date
             << RESET_ACCENT << "\n"
